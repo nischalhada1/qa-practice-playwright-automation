@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test')
+const { test } = require('@playwright/test')
 import { homePage } from '../pageObject/homePage'
 
 test.describe('QA practice website homepage', () => {
